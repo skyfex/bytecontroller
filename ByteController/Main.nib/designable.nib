@@ -54,7 +54,7 @@
 			<object class="NSWindowTemplate" id="829029608">
 				<int key="NSWindowStyleMask">7</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{25, 563}, {459, 231}}</string>
+				<string key="NSWindowRect">{{25, 563}, {459, 242}}</string>
 				<int key="NSWTFlags">1886912512</int>
 				<string key="NSWindowTitle">Preferences</string>
 				<string key="NSWindowClass">PreferenceWindow</string>
@@ -70,9 +70,10 @@
 						<object class="NSTabView" id="255972456">
 							<reference key="NSNextResponder" ref="127728925"/>
 							<int key="NSvFlags">274</int>
-							<string key="NSFrame">{{13, 10}, {433, 204}}</string>
+							<string key="NSFrame">{{13, 21}, {433, 204}}</string>
 							<reference key="NSSuperview" ref="127728925"/>
 							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView" ref="282294762"/>
 							<array class="NSMutableArray" key="NSTabViewItems">
 								<object class="NSTabViewItem" id="805380551">
 									<string key="NSIdentifier">general</string>
@@ -538,8 +539,25 @@
 								<reference ref="282294762"/>
 							</array>
 						</object>
+						<object class="NSTextField" id="367973182">
+							<reference key="NSNextResponder" ref="127728925"/>
+							<int key="NSvFlags">289</int>
+							<string key="NSFrame">{{215, 9}, {227, 14}}</string>
+							<reference key="NSSuperview" ref="127728925"/>
+							<reference key="NSWindow"/>
+							<bool key="NSEnabled">YES</bool>
+							<object class="NSTextFieldCell" key="NSCell" id="169198819">
+								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags2">4194304</int>
+								<string key="NSContents">Like this app? Donate at bytetastic.com</string>
+								<reference key="NSSupport" ref="26"/>
+								<reference key="NSControlView" ref="367973182"/>
+								<reference key="NSBackgroundColor" ref="649000195"/>
+								<reference key="NSTextColor" ref="726529500"/>
+							</object>
+						</object>
 					</array>
-					<string key="NSFrameSize">{459, 231}</string>
+					<string key="NSFrameSize">{459, 242}</string>
 					<reference key="NSSuperview"/>
 					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="255972456"/>
@@ -889,6 +907,7 @@
 						<reference key="object" ref="127728925"/>
 						<array class="NSMutableArray" key="children">
 							<reference ref="255972456"/>
+							<reference ref="367973182"/>
 						</array>
 						<reference key="parent" ref="829029608"/>
 					</object>
@@ -1209,6 +1228,19 @@
 						<reference key="object" ref="989185098"/>
 						<reference key="parent" ref="731693223"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">766</int>
+						<reference key="object" ref="367973182"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="169198819"/>
+						</array>
+						<reference key="parent" ref="127728925"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">767</int>
+						<reference key="object" ref="169198819"/>
+						<reference key="parent" ref="367973182"/>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -1263,12 +1295,14 @@
 				<string key="759.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="764.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="765.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="766.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="767.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">765</int>
+			<int key="maxID">767</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">

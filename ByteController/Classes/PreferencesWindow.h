@@ -28,9 +28,9 @@
 #import <Cocoa/Cocoa.h>
 
 // +22
-#define GENERAL_HEIGHT  251
+#define GENERAL_HEIGHT  265
 #define HOTKEYS_HEIGHT  417
-#define APPEARANCE_HEIGHT 495
+#define APPEARANCE_HEIGHT 510
 
 @interface PreferenceWindow : NSWindow
 {
