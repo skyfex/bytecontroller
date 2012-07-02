@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Adrian "w00ge" Jean</string>
+	<key>CopyrightText</key>
+	<string>© 2004 Adrian Jean</string>
+	<key>Created</key>
+	<date>2004-07-01T22:00:00Z</date>
+	<key>Description</key>
+	<string>Inspired by the default black-tab skin.</string>
+	<key>Name</key>
+	<string>Axonz Rounded Glass</string>
+	<key>Notes</key>
+	<string>http://www.axonz.com/</string>
+</dict>
+</plist>

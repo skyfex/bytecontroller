@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Audun Wilhelmsen</string>
+	<key>CopyrightText</key>
+	<string>© 2004 Audun Wilhelmsen</string>
+	<key>Created</key>
+	<date>2004-06-09T22:00:00Z</date>
+	<key>Description</key>
+	<string></string>
+	<key>Name</key>
+	<string>WindowTabbed</string>
+	<key>Notes</key>
+	<string></string>
+</dict>
+</plist>
